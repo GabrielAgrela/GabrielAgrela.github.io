@@ -1,0 +1,38 @@
+body
+{
+	background-image: url("images/portfolio_back.png") !important;
+	background-size: 100%;
+	background-repeat:no-repeat;
+
+	text-align: center;
+	font-family: 'Sansita', sans-serif;
+	background-attachment: fixed ;
+	background-size: cover ;
+	color: white;
+	text-shadow: 2px 2px 5px #000;
+}
+.entrance
+{
+	margin-top: 25%;
+}
+
+.titulo
+{
+	font-size: 60px !important;
+}
+.subtitulo
+{
+	margin-top: 7%;
+}
+
+.aboutme
+{
+	text-align: left !important;
+	margin-top: 40% !important;
+}
+
+.icone
+{
+	margin-left: -20%;
+	margin-right: 8%;
+}

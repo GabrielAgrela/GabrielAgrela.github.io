@@ -16,8 +16,8 @@
 }
 
 .animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
 }
 
 .animated.hinge {
@@ -358,6 +358,11 @@
 }
 
 @-webkit-keyframes swing {
+	
+	 1% {
+    opacity: 0;
+  }
+	
   20% {
     -webkit-transform: rotate3d(0, 0, 1, 15deg);
     transform: rotate3d(0, 0, 1, 15deg);
@@ -379,32 +384,47 @@
   }
 
   to {
+	  
     -webkit-transform: rotate3d(0, 0, 1, 0deg);
     transform: rotate3d(0, 0, 1, 0deg);
   }
 }
 
 @keyframes swing {
+
+ 0% {
+    opacity: 0;
+  }
+  
   5% {
+    opacity: 1;
+  }
+  
+   71% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  
+ 72% {
     -webkit-transform: rotate3d(0, 0, 1, 15deg);
     transform: rotate3d(0, 0, 1, 15deg);
   }
 
-  10% {
+  75% {
     -webkit-transform: rotate3d(0, 0, 1, -10deg);
     transform: rotate3d(0, 0, 1, -10deg);
   }
 
-  15% {
+  77% {
     -webkit-transform: rotate3d(0, 0, 1, 5deg);
     transform: rotate3d(0, 0, 1, 5deg);
   }
 
-  20% {
+  79% {
     -webkit-transform: rotate3d(0, 0, 1, -5deg);
     transform: rotate3d(0, 0, 1, -5deg);
   }
-  25% {
+  81% {
     -webkit-transform: rotate3d(0, 0, 1, 0deg);
     transform: rotate3d(0, 0, 1, 0deg);
   }
@@ -417,7 +437,7 @@
 
 .swing {
 	-webkit-animation-delay: 2s;
-	-webkit-animation-duration: 4s;
+	-webkit-animation-duration: 5.5s;
   -webkit-transform-origin: top center;
   transform-origin: top center;
   -webkit-animation-name: swing;
@@ -815,6 +835,7 @@
 }
 
 .bounceInDown {
+	-webkit-animation-delay: 1s;
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
 }

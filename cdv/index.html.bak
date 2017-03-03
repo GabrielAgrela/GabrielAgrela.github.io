@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<link rel="icon" 
+      type="image/png" 
+      href="http://eg.com/favicon.png">
+		<!-- Metadata is information about data and will not be displayed on the page -->
+		<!-- The intention of the name and content attributes is to describe the content of a page -->
+
+		<!-- The meta element with a charset attribute represents a character encoding declaration -->
+		<meta charset="UTF-8" />
+		<meta name="keywords" content="HTML" />
+		<meta name="description" content="Exercício em aula HTML and CSS" />
+		<meta name="copyright" content="A Minha Empresa">
+		<meta name="author" content="Jose Agrela" />
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="js/bootstrap.min.js" rel="stylesheet">
+		<link rel="stylesheet" href="stylei.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<title>Edição de Web I</title>
+
+
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	</script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<!--script type="text/javascript" src="engine1/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+	<body>
+		<div class="container">	
+		
+			<div class="row">
+			
+				<div class="col-sm-4">
+					<img src="casa.png"  width="250" height="70" />
+				</div>
+				
+				<div class="col-sm-4">
+				</div>
+				
+				<div class="col-sm-4 fix">
+					<form class="form-wrapper cf">
+					<input type="text" placeholder="Procure aqui..." required>
+					  <button type="submit">Search</button>
+					</form>
+					
+				</div>
+				
+			</div>
+			
+			<div class="row">
+			 <hr></hr>
+				  <header>
+					<div class="nav">
+					  <ul>
+						<li class="home"><a href="#">Home</a></li>
+						<li class="tutorials"><a href="#" class="buttone">Voluntariar-se!</a>
+						<li class="tutorials"><a href="#">Nós</a>
+						  <ul>
+							<li><a href="#">Quem somos</a></li>
+							<li><a href="#">O que fazemos</a></li>
+							<li><a href="#">Onde</a></li>
+						  </ul>
+						</li>
+						<li class="about"><a href="#">Contacte-nos</a></li>
+					  </ul>
+					</div>
+				  </header>
+				  <hr></hr>
+			</div>
+			
+			<div class="row">
+
+
+			</div>
+			<hr></hr>
+				<h2>Voluntariado</h2>
+			 <hr></hr>
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/8bff87/fff" width="250" height="150">
+				</div>
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/8bff87/fff" width="250" height="150">
+				</div>
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/8bff87/fff" width="250" height="150">
+				</div>
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/8bff87/fff" width="250" height="150">
+				</div>
+			</div>
+			 <hr></hr>
+			 <h2 class="test" align=right >Jovens</h2>
+			 <hr></hr>
+			 <div class="row">
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/87f9ff/fff" width="250" height="150">
+				</div>
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/87f9ff/fff" width="250" height="150"">
+				</div>
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/87f9ff/fff" width="250" height="150">
+				</div>
+				<div class="col-sm-3">
+					<img src="http://dummyimage.com/600x400/87f9ff/fff" width="250" height="150">
+				</div>
+			</div>
+			<hr></hr>
+			
+			
+		</div>		
+
+		<footer>
+			
+		</footer>
+	</body>
+</html>
+

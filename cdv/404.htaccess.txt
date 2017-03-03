@@ -1,0 +1,9 @@
+<div class="wrap">
+	<a href="https://en.wikipedia.org/wiki/The_Omen" target="_blank"></a>
+	<div class="slogan">From the eternal sea he rises.</br>Creating armies on either shore.</br>Turning man against his brother.</br>Until man exists no more.</div>
+	<div class="omen">
+		<div class="demien"></div>
+		<div class="shadow"></div>
+	</div>
+	<div class="title">The Omen</div>
+</div>

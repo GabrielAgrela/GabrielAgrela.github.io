@@ -16,7 +16,7 @@
 	<link rel="shortcut icon" href="game/TemplateData/favicon.ico" />
     <script src="game/TemplateData/UnityProgress.js"></script>
 	<script type="text/javascript">
-		if (screen.width <= 800) {
+		if (screen.width <= 1081) {
 		window.location = "https://sopustos.github.io/";
 		}
 	</script>

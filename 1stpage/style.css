@@ -1,195 +1,69 @@
-#q1 {
-	background-color: rgb(50,50,156);
-}
-
-#q2 {
-	background-image: url("http://www.newyorkjoe.net/wp-content/uploads/2015/03/Louisville-Slugger-2012-TPX-YB12L-13-2-14-Inch-Laser-Baseball-Bat-29-Inch-16-Ounce-0-0.jpg");
-	background-position: center ;
-	background-repeat: repeat-3;
-	}
 body {
-	background-image: url("http://img-9gag-fun.9cache.com/photo/aRVxRwG_460sv.mp4")!important;
-	background-position: fixed;
-	background-attachment: fixed ;
-	background-repeat: no-repeat;
+   background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sons {
+   margin-top: 300px !important;
+   text-align:center;
 
 }
+.btr {
+   margin-right: 100px !important;
+   text-align:center;
+
+}
+.bt {
+   margin-left: 100px !important;
+   text-align:center;
+
+}
+
+.tr {
+   margin-right:200px !important;
+   text-align:center;
+
+}
+.t {
+   margin-left: 200px !important;
+   text-align:center;
+
+}
+span
+{
+	font-size: large;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0);
+}
+footer {
+    background-color: #EDEFF1;
+    color: #BAC1C8;
+    font-size: 15px;
+    padding: 0;
+}
+.footer-2 {
+    color: #BDC3C7;
+    line-height: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.bg-midnight-blue {
+    background-color: #2C3E50;
+}
+body > section, header, footer {
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+
 h1 {
-    color: red;
-}
-h1 {
-    text-align: center;
-}
-p {
-	position: absolute;
-        top: 33%;
-        left: 22%;
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: white;
-	color: black;
-	font-size: 55px;
-    text-align: center bottom;
+    text-shadow: 2px 2px 5px #000000;
+	color: white !important;
 }
 
-h2 {
-	   text-align: center;
-		font-size: 60px;
-		 -webkit-animation: colorchange 1s infinite;
-		 -webkit-animation-direction: alternate;
-		animation-duration: 15s;
-	}
-		
-		@-webkit-keyframes colorchange 
-	{
-			0% 
-			{
-				transform: scale(.8);
-				opacity: 0;
-				letter-spacing: -5px;
-			}
-			10%
-			{
-				transform: scale(1);
-				opacity: 1;
-				color: red;
-				letter-spacing: 7px;
-			}
-			100%
-			{
-				transform: scale(1);
-				opacity: 1;
-				color: red;
-				letter-spacing: 7px;
-			}
-	}
-#q3
-{
-	position: absolute;
-        top: 43%;
-        left: 60%;
-}
-#q4
-{
-	color: black;
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: white;
-	position: absolute;
-        top: 87%;
-        left: 93%;
-}
-#q5
-{
-	position: absolute;
-        top: 58%;
-        left: 70%;
-		-webkit-animation: isaac 1s infinite;
-		 -webkit-animation-direction: alternate;
-		animation-duration: 15s;
-		transform: scale(1);
-}
-	@-webkit-keyframes isaac 
-	{
-			0% 
-			{
-				transform: scale(.1);
-				opacity: 0;
-			}
-			50%
-			{
-				transform: scale(1);
-				opacity: 0;
-			}
-			60% 
-			{
-				transform: scale(2.5);
-				opacity: 1;
-			}
-			100% 
-			{
-				transform: scale(2.5);
-				opacity: 1;
-			}
-	}
-
-}
-#q6
-{
-	font-size: 45px;
-		position: absolute;
-        top: 70%;
-        left: 85%;
-		-webkit-animation: click 1s infinite;
-		 -webkit-animation-direction: alternate;
-		animation-duration: 15s;
-		transform: scale(1);
-}
-	@-webkit-keyframes click 
-	{
-			0% 
-			{
-				transform: scale(.1);
-				opacity: 0;
-			}
-			60%
-			{
-				transform: scale(1);
-				opacity: 0;
-			}
-			70% 
-			{
-				transform: scale(1);
-				opacity: 1;
-			}
-			100%
-			{
-				transform: scale(1);
-				opacity: 1;
-			}
-	}
-}
-audio { 
-   display:none;
-}
-#q8
-{
-		position: absolute;
-        top: 50%;
-        left: 0%;
-		-webkit-animation: cat 1s infinite;
-		 -webkit-animation-direction: normal;
-		animation-duration: 3s;
-		-webkit-transition-timing-function: linear;
-}
-	@-webkit-keyframes cat 
-	{
-			0% 
-			{
-				top: 50%;
-				left: 0%;
-			}
-			100%
-			{
-				top: 50%;
-				left: 89%;
-			}
-	}
-}
-
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100000 !important;
-}
-
-.fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-	z-index: -100000 !important;
+h3 {
+    text-shadow: 2px 2px 5px #000000;
+	color: white !important;
 }

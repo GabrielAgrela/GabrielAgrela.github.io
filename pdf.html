@@ -9,15 +9,37 @@
 
   <body>
   
-  <button onclick="myFunction()">Try it</button>
-<iframe id="myDIV" src="https://docs.google.com/document/d/e/2PACX-1vQ5_70CpnqaG4hlm8EPeX1haxSILNa9-_t-OCjcp1Bj6uNfhTz6h3MMPfFKSuPyrPCWHnmMAcnZV4dM/pub?embedded=true" width="100%" height="500px"></iframe>   </body>
+	<button onclick="myFunction('t1')">resumo</button>
+	<button onclick="myFunction('t2')">161</button>
+	<button onclick="myFunction('t3')">162</button>
+	<button onclick="myFunction('t4')">163</button>
+	<button onclick="myFunction('t5')">164</button>
+	<button onclick="myFunction('t6')">165</button>
+	<button onclick="myFunction('t7')">166</button>
+	<button onclick="myFunction('t8')">191</button>
+	<button onclick="myFunction('t9')">192</button>
+	<button onclick="myFunction('t10')">193</button>
+	<button onclick="myFunction('t11')">194</button>
+	<button onclick="myFunction('t12')">195</button>
+	<iframe frameborder="1" scrolling="auto" id="t1" src="https://docs.google.com/document/d/e/2PACX-1vQ5_70CpnqaG4hlm8EPeX1haxSILNa9-_t-OCjcp1Bj6uNfhTz6h3MMPfFKSuPyrPCWHnmMAcnZV4dM/pub?embedded=true" width="100%" height="500px"></iframe>
+	<img style="display:none;" id="t2" src="2016 - 1.jpg" width="100%"></img>
+	<img style="display:none;" id="t3" src="2016 - 2.jpg" width="100%"></img>
+	<img style="display:none;" id="t4" src="2016 - 3.jpg" width="100%"></img>
+	<img style="display:none;" id="t5" src="2016 - 4.jpg" width="100%"></img>
+	<img style="display:none;" id="t6" src="2016 - 5.jpg" width="100%"></img>
+	<img style="display:none;" id="t7" src="2016 - 6.jpg" width="100%"></img>
+	<img style="display:none;" id="t8" src="2019 - 1.jpg" width="100%"></img>
+	<img style="display:none;" id="t9" src="2019 - 2.jpg" width="100%"></img>
+	<img style="display:none;" id="t10" src="2019 - 3.jpg" width="100%"></img>
+	<img style="display:none;" id="t11" src="2019 - 4.jpg" width="100%"></img>
+	<img style="display:none;" id="t12" src="2019 - 5.jpg" width="100%"></img>
 
   
   
-	<script>
-	function myFunction() 
+	<script>                                                                             
+	function myFunction(t) 
 	{
-		var x = document.getElementById("myDIV");
+		var x = document.getElementById(t);
 		if (x.style.display === "none") 
 		{
 			x.style.display = "block";

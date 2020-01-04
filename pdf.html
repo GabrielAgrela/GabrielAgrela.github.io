@@ -8,5 +8,27 @@
   </head>
 
   <body>
-   <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ5_70CpnqaG4hlm8EPeX1haxSILNa9-_t-OCjcp1Bj6uNfhTz6h3MMPfFKSuPyrPCWHnmMAcnZV4dM/pub?embedded=true" width="100%" height="500px"></iframe>   </body>
-</html>
+  
+  <button onclick="myFunction()">Try it</button>
+<iframe id="myDIV" src="https://docs.google.com/document/d/e/2PACX-1vQ5_70CpnqaG4hlm8EPeX1haxSILNa9-_t-OCjcp1Bj6uNfhTz6h3MMPfFKSuPyrPCWHnmMAcnZV4dM/pub?embedded=true" width="100%" height="500px"></iframe>   </body>
+
+  
+  
+	<script>
+	function myFunction() 
+	{
+		var x = document.getElementById("myDIV");
+		if (x.style.display === "none") 
+		{
+			x.style.display = "block";
+		}
+		else 
+		{
+			x.style.display = "none";
+		}
+	}
+	</script>
+    
+    
+  </body>
+  </html>
